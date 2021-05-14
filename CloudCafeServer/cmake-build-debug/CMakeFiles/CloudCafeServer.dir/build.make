@@ -62,10 +62,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/kerryoo/CLionProjects/CloudCafeServer
+CMAKE_SOURCE_DIR = /Users/kerryoo/cloud-cafe/CloudCafeServer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kerryoo/CLionProjects/CloudCafeServer/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/kerryoo/cloud-cafe/CloudCafeServer/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/CloudCafeServer.dir/depend.make
@@ -78,73 +78,73 @@ include CMakeFiles/CloudCafeServer.dir/flags.make
 
 CMakeFiles/CloudCafeServer.dir/main.cpp.o: CMakeFiles/CloudCafeServer.dir/flags.make
 CMakeFiles/CloudCafeServer.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kerryoo/CLionProjects/CloudCafeServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CloudCafeServer.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCafeServer.dir/main.cpp.o -c /Users/kerryoo/CLionProjects/CloudCafeServer/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kerryoo/cloud-cafe/CloudCafeServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CloudCafeServer.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCafeServer.dir/main.cpp.o -c /Users/kerryoo/cloud-cafe/CloudCafeServer/main.cpp
 
 CMakeFiles/CloudCafeServer.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCafeServer.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kerryoo/CLionProjects/CloudCafeServer/main.cpp > CMakeFiles/CloudCafeServer.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kerryoo/cloud-cafe/CloudCafeServer/main.cpp > CMakeFiles/CloudCafeServer.dir/main.cpp.i
 
 CMakeFiles/CloudCafeServer.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCafeServer.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kerryoo/CLionProjects/CloudCafeServer/main.cpp -o CMakeFiles/CloudCafeServer.dir/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kerryoo/cloud-cafe/CloudCafeServer/main.cpp -o CMakeFiles/CloudCafeServer.dir/main.cpp.s
 
-CMakeFiles/CloudCafeServer.dir/User.cpp.o: CMakeFiles/CloudCafeServer.dir/flags.make
-CMakeFiles/CloudCafeServer.dir/User.cpp.o: ../User.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kerryoo/CLionProjects/CloudCafeServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CloudCafeServer.dir/User.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCafeServer.dir/User.cpp.o -c /Users/kerryoo/CLionProjects/CloudCafeServer/User.cpp
+CMakeFiles/CloudCafeServer.dir/src/User.cpp.o: CMakeFiles/CloudCafeServer.dir/flags.make
+CMakeFiles/CloudCafeServer.dir/src/User.cpp.o: ../src/User.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kerryoo/cloud-cafe/CloudCafeServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CloudCafeServer.dir/src/User.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCafeServer.dir/src/User.cpp.o -c /Users/kerryoo/cloud-cafe/CloudCafeServer/src/User.cpp
 
-CMakeFiles/CloudCafeServer.dir/User.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCafeServer.dir/User.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kerryoo/CLionProjects/CloudCafeServer/User.cpp > CMakeFiles/CloudCafeServer.dir/User.cpp.i
+CMakeFiles/CloudCafeServer.dir/src/User.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCafeServer.dir/src/User.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kerryoo/cloud-cafe/CloudCafeServer/src/User.cpp > CMakeFiles/CloudCafeServer.dir/src/User.cpp.i
 
-CMakeFiles/CloudCafeServer.dir/User.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCafeServer.dir/User.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kerryoo/CLionProjects/CloudCafeServer/User.cpp -o CMakeFiles/CloudCafeServer.dir/User.cpp.s
+CMakeFiles/CloudCafeServer.dir/src/User.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCafeServer.dir/src/User.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kerryoo/cloud-cafe/CloudCafeServer/src/User.cpp -o CMakeFiles/CloudCafeServer.dir/src/User.cpp.s
 
-CMakeFiles/CloudCafeServer.dir/Vector3.cpp.o: CMakeFiles/CloudCafeServer.dir/flags.make
-CMakeFiles/CloudCafeServer.dir/Vector3.cpp.o: ../Vector3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kerryoo/CLionProjects/CloudCafeServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CloudCafeServer.dir/Vector3.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCafeServer.dir/Vector3.cpp.o -c /Users/kerryoo/CLionProjects/CloudCafeServer/Vector3.cpp
+CMakeFiles/CloudCafeServer.dir/src/Vector3.cpp.o: CMakeFiles/CloudCafeServer.dir/flags.make
+CMakeFiles/CloudCafeServer.dir/src/Vector3.cpp.o: ../src/Vector3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kerryoo/cloud-cafe/CloudCafeServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CloudCafeServer.dir/src/Vector3.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCafeServer.dir/src/Vector3.cpp.o -c /Users/kerryoo/cloud-cafe/CloudCafeServer/src/Vector3.cpp
 
-CMakeFiles/CloudCafeServer.dir/Vector3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCafeServer.dir/Vector3.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kerryoo/CLionProjects/CloudCafeServer/Vector3.cpp > CMakeFiles/CloudCafeServer.dir/Vector3.cpp.i
+CMakeFiles/CloudCafeServer.dir/src/Vector3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCafeServer.dir/src/Vector3.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kerryoo/cloud-cafe/CloudCafeServer/src/Vector3.cpp > CMakeFiles/CloudCafeServer.dir/src/Vector3.cpp.i
 
-CMakeFiles/CloudCafeServer.dir/Vector3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCafeServer.dir/Vector3.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kerryoo/CLionProjects/CloudCafeServer/Vector3.cpp -o CMakeFiles/CloudCafeServer.dir/Vector3.cpp.s
+CMakeFiles/CloudCafeServer.dir/src/Vector3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCafeServer.dir/src/Vector3.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kerryoo/cloud-cafe/CloudCafeServer/src/Vector3.cpp -o CMakeFiles/CloudCafeServer.dir/src/Vector3.cpp.s
 
-CMakeFiles/CloudCafeServer.dir/UserList.cpp.o: CMakeFiles/CloudCafeServer.dir/flags.make
-CMakeFiles/CloudCafeServer.dir/UserList.cpp.o: ../UserList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kerryoo/CLionProjects/CloudCafeServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CloudCafeServer.dir/UserList.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCafeServer.dir/UserList.cpp.o -c /Users/kerryoo/CLionProjects/CloudCafeServer/UserList.cpp
+CMakeFiles/CloudCafeServer.dir/src/UserList.cpp.o: CMakeFiles/CloudCafeServer.dir/flags.make
+CMakeFiles/CloudCafeServer.dir/src/UserList.cpp.o: ../src/UserList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kerryoo/cloud-cafe/CloudCafeServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CloudCafeServer.dir/src/UserList.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCafeServer.dir/src/UserList.cpp.o -c /Users/kerryoo/cloud-cafe/CloudCafeServer/src/UserList.cpp
 
-CMakeFiles/CloudCafeServer.dir/UserList.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCafeServer.dir/UserList.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kerryoo/CLionProjects/CloudCafeServer/UserList.cpp > CMakeFiles/CloudCafeServer.dir/UserList.cpp.i
+CMakeFiles/CloudCafeServer.dir/src/UserList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCafeServer.dir/src/UserList.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kerryoo/cloud-cafe/CloudCafeServer/src/UserList.cpp > CMakeFiles/CloudCafeServer.dir/src/UserList.cpp.i
 
-CMakeFiles/CloudCafeServer.dir/UserList.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCafeServer.dir/UserList.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kerryoo/CLionProjects/CloudCafeServer/UserList.cpp -o CMakeFiles/CloudCafeServer.dir/UserList.cpp.s
+CMakeFiles/CloudCafeServer.dir/src/UserList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCafeServer.dir/src/UserList.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kerryoo/cloud-cafe/CloudCafeServer/src/UserList.cpp -o CMakeFiles/CloudCafeServer.dir/src/UserList.cpp.s
 
 # Object files for target CloudCafeServer
 CloudCafeServer_OBJECTS = \
 "CMakeFiles/CloudCafeServer.dir/main.cpp.o" \
-"CMakeFiles/CloudCafeServer.dir/User.cpp.o" \
-"CMakeFiles/CloudCafeServer.dir/Vector3.cpp.o" \
-"CMakeFiles/CloudCafeServer.dir/UserList.cpp.o"
+"CMakeFiles/CloudCafeServer.dir/src/User.cpp.o" \
+"CMakeFiles/CloudCafeServer.dir/src/Vector3.cpp.o" \
+"CMakeFiles/CloudCafeServer.dir/src/UserList.cpp.o"
 
 # External object files for target CloudCafeServer
 CloudCafeServer_EXTERNAL_OBJECTS =
 
 CloudCafeServer: CMakeFiles/CloudCafeServer.dir/main.cpp.o
-CloudCafeServer: CMakeFiles/CloudCafeServer.dir/User.cpp.o
-CloudCafeServer: CMakeFiles/CloudCafeServer.dir/Vector3.cpp.o
-CloudCafeServer: CMakeFiles/CloudCafeServer.dir/UserList.cpp.o
+CloudCafeServer: CMakeFiles/CloudCafeServer.dir/src/User.cpp.o
+CloudCafeServer: CMakeFiles/CloudCafeServer.dir/src/Vector3.cpp.o
+CloudCafeServer: CMakeFiles/CloudCafeServer.dir/src/UserList.cpp.o
 CloudCafeServer: CMakeFiles/CloudCafeServer.dir/build.make
 CloudCafeServer: CMakeFiles/CloudCafeServer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kerryoo/CLionProjects/CloudCafeServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable CloudCafeServer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kerryoo/cloud-cafe/CloudCafeServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable CloudCafeServer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CloudCafeServer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -157,6 +157,6 @@ CMakeFiles/CloudCafeServer.dir/clean:
 .PHONY : CMakeFiles/CloudCafeServer.dir/clean
 
 CMakeFiles/CloudCafeServer.dir/depend:
-	cd /Users/kerryoo/CLionProjects/CloudCafeServer/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kerryoo/CLionProjects/CloudCafeServer /Users/kerryoo/CLionProjects/CloudCafeServer /Users/kerryoo/CLionProjects/CloudCafeServer/cmake-build-debug /Users/kerryoo/CLionProjects/CloudCafeServer/cmake-build-debug /Users/kerryoo/CLionProjects/CloudCafeServer/cmake-build-debug/CMakeFiles/CloudCafeServer.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/kerryoo/cloud-cafe/CloudCafeServer/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kerryoo/cloud-cafe/CloudCafeServer /Users/kerryoo/cloud-cafe/CloudCafeServer /Users/kerryoo/cloud-cafe/CloudCafeServer/cmake-build-debug /Users/kerryoo/cloud-cafe/CloudCafeServer/cmake-build-debug /Users/kerryoo/cloud-cafe/CloudCafeServer/cmake-build-debug/CMakeFiles/CloudCafeServer.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/CloudCafeServer.dir/depend
 

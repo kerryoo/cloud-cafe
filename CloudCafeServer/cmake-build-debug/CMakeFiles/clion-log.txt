@@ -1,4 +1,4 @@
-/Applications/CMake.app/Contents/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/kerryoo/CLionProjects/CloudCafeServer
+/Applications/CMake.app/Contents/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/kerryoo/cloud-cafe/CloudCafeServer
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/kerryoo/CLionProjects/CloudCafeServer/cmake-build-debug
+-- Build files have been written to: /Users/kerryoo/cloud-cafe/CloudCafeServer/cmake-build-debug

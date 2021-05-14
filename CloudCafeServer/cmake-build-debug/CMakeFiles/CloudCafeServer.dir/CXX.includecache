@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/ServerConfigs.h
+
+../include/User.h
+string
+-
+Vector3.h
+../include/Vector3.h
+
+../include/Vector3.h
+iostream
+-
+
+/Users/kerryoo/cloud-cafe/CloudCafeServer/src/User.cpp
+User.h
+/Users/kerryoo/cloud-cafe/CloudCafeServer/src/User.h
+ServerConfigs.h
+/Users/kerryoo/cloud-cafe/CloudCafeServer/src/ServerConfigs.h
+

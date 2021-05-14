@@ -67,10 +67,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/kerryoo/CLionProjects/CloudCafeServer
+CMAKE_SOURCE_DIR = /Users/kerryoo/cloud-cafe/CloudCafeServer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kerryoo/CLionProjects/CloudCafeServer/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/kerryoo/cloud-cafe/CloudCafeServer/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kerryoo/CLionProjects/CloudCafeServer/cmake-build-debug/CMakeFiles /Users/kerryoo/CLionProjects/CloudCafeServer/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kerryoo/cloud-cafe/CloudCafeServer/cmake-build-debug/CMakeFiles /Users/kerryoo/cloud-cafe/CloudCafeServer/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kerryoo/CLionProjects/CloudCafeServer/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kerryoo/cloud-cafe/CloudCafeServer/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -142,87 +142,6 @@ CloudCafeServer/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CloudCafeServer.dir/build.make CMakeFiles/CloudCafeServer.dir/build
 .PHONY : CloudCafeServer/fast
 
-User.o: User.cpp.o
-
-.PHONY : User.o
-
-# target to build an object file
-User.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CloudCafeServer.dir/build.make CMakeFiles/CloudCafeServer.dir/User.cpp.o
-.PHONY : User.cpp.o
-
-User.i: User.cpp.i
-
-.PHONY : User.i
-
-# target to preprocess a source file
-User.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CloudCafeServer.dir/build.make CMakeFiles/CloudCafeServer.dir/User.cpp.i
-.PHONY : User.cpp.i
-
-User.s: User.cpp.s
-
-.PHONY : User.s
-
-# target to generate assembly for a file
-User.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CloudCafeServer.dir/build.make CMakeFiles/CloudCafeServer.dir/User.cpp.s
-.PHONY : User.cpp.s
-
-UserList.o: UserList.cpp.o
-
-.PHONY : UserList.o
-
-# target to build an object file
-UserList.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CloudCafeServer.dir/build.make CMakeFiles/CloudCafeServer.dir/UserList.cpp.o
-.PHONY : UserList.cpp.o
-
-UserList.i: UserList.cpp.i
-
-.PHONY : UserList.i
-
-# target to preprocess a source file
-UserList.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CloudCafeServer.dir/build.make CMakeFiles/CloudCafeServer.dir/UserList.cpp.i
-.PHONY : UserList.cpp.i
-
-UserList.s: UserList.cpp.s
-
-.PHONY : UserList.s
-
-# target to generate assembly for a file
-UserList.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CloudCafeServer.dir/build.make CMakeFiles/CloudCafeServer.dir/UserList.cpp.s
-.PHONY : UserList.cpp.s
-
-Vector3.o: Vector3.cpp.o
-
-.PHONY : Vector3.o
-
-# target to build an object file
-Vector3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CloudCafeServer.dir/build.make CMakeFiles/CloudCafeServer.dir/Vector3.cpp.o
-.PHONY : Vector3.cpp.o
-
-Vector3.i: Vector3.cpp.i
-
-.PHONY : Vector3.i
-
-# target to preprocess a source file
-Vector3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CloudCafeServer.dir/build.make CMakeFiles/CloudCafeServer.dir/Vector3.cpp.i
-.PHONY : Vector3.cpp.i
-
-Vector3.s: Vector3.cpp.s
-
-.PHONY : Vector3.s
-
-# target to generate assembly for a file
-Vector3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CloudCafeServer.dir/build.make CMakeFiles/CloudCafeServer.dir/Vector3.cpp.s
-.PHONY : Vector3.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -250,6 +169,87 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CloudCafeServer.dir/build.make CMakeFiles/CloudCafeServer.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/User.o: src/User.cpp.o
+
+.PHONY : src/User.o
+
+# target to build an object file
+src/User.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CloudCafeServer.dir/build.make CMakeFiles/CloudCafeServer.dir/src/User.cpp.o
+.PHONY : src/User.cpp.o
+
+src/User.i: src/User.cpp.i
+
+.PHONY : src/User.i
+
+# target to preprocess a source file
+src/User.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CloudCafeServer.dir/build.make CMakeFiles/CloudCafeServer.dir/src/User.cpp.i
+.PHONY : src/User.cpp.i
+
+src/User.s: src/User.cpp.s
+
+.PHONY : src/User.s
+
+# target to generate assembly for a file
+src/User.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CloudCafeServer.dir/build.make CMakeFiles/CloudCafeServer.dir/src/User.cpp.s
+.PHONY : src/User.cpp.s
+
+src/UserList.o: src/UserList.cpp.o
+
+.PHONY : src/UserList.o
+
+# target to build an object file
+src/UserList.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CloudCafeServer.dir/build.make CMakeFiles/CloudCafeServer.dir/src/UserList.cpp.o
+.PHONY : src/UserList.cpp.o
+
+src/UserList.i: src/UserList.cpp.i
+
+.PHONY : src/UserList.i
+
+# target to preprocess a source file
+src/UserList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CloudCafeServer.dir/build.make CMakeFiles/CloudCafeServer.dir/src/UserList.cpp.i
+.PHONY : src/UserList.cpp.i
+
+src/UserList.s: src/UserList.cpp.s
+
+.PHONY : src/UserList.s
+
+# target to generate assembly for a file
+src/UserList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CloudCafeServer.dir/build.make CMakeFiles/CloudCafeServer.dir/src/UserList.cpp.s
+.PHONY : src/UserList.cpp.s
+
+src/Vector3.o: src/Vector3.cpp.o
+
+.PHONY : src/Vector3.o
+
+# target to build an object file
+src/Vector3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CloudCafeServer.dir/build.make CMakeFiles/CloudCafeServer.dir/src/Vector3.cpp.o
+.PHONY : src/Vector3.cpp.o
+
+src/Vector3.i: src/Vector3.cpp.i
+
+.PHONY : src/Vector3.i
+
+# target to preprocess a source file
+src/Vector3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CloudCafeServer.dir/build.make CMakeFiles/CloudCafeServer.dir/src/Vector3.cpp.i
+.PHONY : src/Vector3.cpp.i
+
+src/Vector3.s: src/Vector3.cpp.s
+
+.PHONY : src/Vector3.s
+
+# target to generate assembly for a file
+src/Vector3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CloudCafeServer.dir/build.make CMakeFiles/CloudCafeServer.dir/src/Vector3.cpp.s
+.PHONY : src/Vector3.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -259,18 +259,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CloudCafeServer"
-	@echo "... User.o"
-	@echo "... User.i"
-	@echo "... User.s"
-	@echo "... UserList.o"
-	@echo "... UserList.i"
-	@echo "... UserList.s"
-	@echo "... Vector3.o"
-	@echo "... Vector3.i"
-	@echo "... Vector3.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/User.o"
+	@echo "... src/User.i"
+	@echo "... src/User.s"
+	@echo "... src/UserList.o"
+	@echo "... src/UserList.i"
+	@echo "... src/UserList.s"
+	@echo "... src/Vector3.o"
+	@echo "... src/Vector3.i"
+	@echo "... src/Vector3.s"
 .PHONY : help
 
 

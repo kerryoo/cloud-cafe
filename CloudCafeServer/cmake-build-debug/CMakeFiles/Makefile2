@@ -63,10 +63,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/kerryoo/CLionProjects/CloudCafeServer
+CMAKE_SOURCE_DIR = /Users/kerryoo/cloud-cafe/CloudCafeServer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kerryoo/CLionProjects/CloudCafeServer/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/kerryoo/cloud-cafe/CloudCafeServer/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -93,14 +93,14 @@ clean: CMakeFiles/CloudCafeServer.dir/clean
 CMakeFiles/CloudCafeServer.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CloudCafeServer.dir/build.make CMakeFiles/CloudCafeServer.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CloudCafeServer.dir/build.make CMakeFiles/CloudCafeServer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kerryoo/CLionProjects/CloudCafeServer/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target CloudCafeServer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kerryoo/cloud-cafe/CloudCafeServer/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target CloudCafeServer"
 .PHONY : CMakeFiles/CloudCafeServer.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CloudCafeServer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kerryoo/CLionProjects/CloudCafeServer/cmake-build-debug/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kerryoo/cloud-cafe/CloudCafeServer/cmake-build-debug/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/CloudCafeServer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kerryoo/CLionProjects/CloudCafeServer/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kerryoo/cloud-cafe/CloudCafeServer/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/CloudCafeServer.dir/rule
 
 # Convenience name for target.

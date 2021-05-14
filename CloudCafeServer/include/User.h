@@ -10,16 +10,19 @@
 
 class User {
 public:
-    User(std::string userID, Vector3 startPos, Vector3 rotation);
+    explicit User(std::string userID, Vector3 startPos = Vector3(), Vector3 rotation = Vector3());
     ~User() = default;
     User(const User&) = default;
     User& operator= (const User&) = default;
-
+    bool operator==(const User& rhs) const;
+    friend std::ostream& operator<<(std::ostream& os, const User& user);
+    void move(std::string const& input);
 private:
     std::string userId;
     Vector3 position;
     Vector3 rotation;
 };
+
 
 
 #endif //CLOUDCAFESERVER_USER_H

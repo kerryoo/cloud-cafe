@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/CloudCafeServer.dir/User.cpp.o"
-  "CMakeFiles/CloudCafeServer.dir/UserList.cpp.o"
-  "CMakeFiles/CloudCafeServer.dir/Vector3.cpp.o"
   "CMakeFiles/CloudCafeServer.dir/main.cpp.o"
+  "CMakeFiles/CloudCafeServer.dir/src/User.cpp.o"
+  "CMakeFiles/CloudCafeServer.dir/src/UserList.cpp.o"
+  "CMakeFiles/CloudCafeServer.dir/src/Vector3.cpp.o"
   "CloudCafeServer"
   "CloudCafeServer.pdb"
 )
