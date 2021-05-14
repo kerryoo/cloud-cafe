@@ -1,0 +1,4 @@
+-r:Assets/Plugins/System.Buffers.dll
+-r:Assets/Plugins/System.Runtime.CompilerServices.Unsafe.dll
+-r:Assets/Plugins/System.Memory.dll
+-r:Assets/Plugins/Confluent.Kafka.dll
