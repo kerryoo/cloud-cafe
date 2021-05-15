@@ -13,6 +13,8 @@ public:
     void addUser(User const& user);
     void removeUser(std::string const& playerID);
     void removeUser(User const& user);
+    void moveUser(std::string const& playerID, std::string const& input);
+
     friend std::ostream& operator<<(std::ostream& os, const UserList& userList);
 private:
     std::list<User> users;

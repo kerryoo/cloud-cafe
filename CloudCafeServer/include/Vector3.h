@@ -17,6 +17,8 @@ public:
     float operator* (const Vector3& rhs) const;
     Vector3 operator* (float rhs) const;
     Vector3 operator/ (float rhs) const;
+    Vector3& operator+= (const Vector3& rhs);
+    Vector3& operator-= (const Vector3& rhs);
     bool operator==(const Vector3& rhs) const;
     bool parallel(const Vector3& rhs) const;
     Vector3 cross(const Vector3& rhs) const;

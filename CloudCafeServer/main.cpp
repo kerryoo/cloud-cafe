@@ -15,7 +15,6 @@ void init() {
 void handleRequest(std::string request) {
     std::istringstream stream(request);
     std::string token;
-
     stream >> token;
     std::string playerID;
     stream >> playerID;
@@ -44,10 +43,11 @@ void onUserMove(std::string const& playerID, std::string const& input) {
 
 int main() {
     User user = User("kerr");
-    for (int i = 0; i < 6; i++) {
+    for (int i = 0; i < 4; i++) {
         user.move("d");
     }
-    std::cout << user << std::endl;
+
     user.move("w");
+    std::cout << user << std::endl;
     return 0;
 }

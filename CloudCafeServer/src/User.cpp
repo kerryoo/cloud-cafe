@@ -22,17 +22,26 @@ std::ostream& operator<<(std::ostream& os, const User& user) {
 
 void User::move(std::string const& input) {
     if (input == "w") {
-        float x = cos(rotation.y * M_PI / 180) * cos(rotation.x * M_PI / 180);
-        float y = sin(rotation.y * M_PI / 180) * cos(rotation.x * M_PI / 180);
-        float z = sin(rotation.x * M_PI / 180);
-        Vector3 forwardVector = Vector3(x, y, z);
-        std::cout << forwardVector;
+        Vector3 forwardVector = getForwardVector();
+        position += forwardVector * ServerConfigs::MOVE_SPEED;
     } else if (input == "a") {
         rotation.y -= ServerConfigs::ROTATE_SPEED;
     } else if (input == "s") {
-
+        Vector3 forwardVector = getForwardVector();
+        position -= forwardVector * ServerConfigs::MOVE_SPEED;
     } else if (input == "d") {
-        rotation.y -= ServerConfigs::ROTATE_SPEED;
+        rotation.y += ServerConfigs::ROTATE_SPEED;
     }
+}
+
+Vector3 User::getForwardVector() {
+    float x = -cos(rotation.x * M_PI / 180) * sin(rotation.y * M_PI / 180);
+    float y = sin(rotation.x * M_PI / 180);
+    float z = -cos(rotation.x * M_PI / 180) * cos(rotation.y * M_PI / 180);
+
+    if (abs(x) < 0.0001) { x = 0; }
+    if (abs(y) < 0.0001) { y = 0; }
+    if (abs(z) < 0.0001) { z = 0; }
+    return Vector3(x, y, z);
 }
 

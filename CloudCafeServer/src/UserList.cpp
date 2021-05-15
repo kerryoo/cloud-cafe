@@ -5,9 +5,8 @@
 #include "UserList.h"
 
 void UserList::addUser(const std::string &playerID) {
-    std::list<User>::iterator it;
     User user(playerID);
-    it = std::find(users.begin(), users.end(), user);
+    auto it = std::find(users.begin(), users.end(), user);
     if (it == users.end()) {
         users.emplace_back(user);
     }
@@ -34,4 +33,10 @@ std::ostream& operator<<(std::ostream& os, const UserList& userList) {
         os << user << std::endl;
     }
     return os;
+}
+
+void UserList::moveUser(const std::string &playerID, const std::string &input) {
+    User user(playerID);
+    auto it = std::find(users.begin(), users.end(), playerID);
+    it->move(input);
 }

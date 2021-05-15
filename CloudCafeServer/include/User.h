@@ -17,6 +17,7 @@ public:
     bool operator==(const User& rhs) const;
     friend std::ostream& operator<<(std::ostream& os, const User& user);
     void move(std::string const& input);
+    Vector3 getForwardVector();
 private:
     std::string userId;
     Vector3 position;

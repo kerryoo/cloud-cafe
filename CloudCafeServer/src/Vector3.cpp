@@ -104,6 +104,20 @@ void Vector3::clampToZeroAndOne() {
     }
 }
 
+Vector3 &Vector3::operator+=(const Vector3 &rhs) {
+    x += rhs.x;
+    y += rhs.y;
+    z += rhs.z;
+    return *this;
+}
+
+Vector3 &Vector3::operator-=(const Vector3 &rhs) {
+    x -= rhs.x;
+    y -= rhs.y;
+    z -= rhs.z;
+    return *this;
+}
+
 Vector3 operator* (float x, const Vector3& rhs) {
     return Vector3(x*rhs.x, x*rhs.y, x*rhs.z);
 }

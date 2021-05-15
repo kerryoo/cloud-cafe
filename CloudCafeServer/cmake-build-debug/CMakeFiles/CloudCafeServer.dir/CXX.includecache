@@ -6,21 +6,27 @@
 
 #IncludeRegexTransform: 
 
-../include/ServerConfigs.h
-
-../include/User.h
+/Users/kerryoo/cloud-cafe/CloudCafeServer/include/User.h
 string
 -
 Vector3.h
-../include/Vector3.h
+/Users/kerryoo/cloud-cafe/CloudCafeServer/include/Vector3.h
 
-../include/Vector3.h
+/Users/kerryoo/cloud-cafe/CloudCafeServer/include/UserList.h
+list
+-
+User.h
+/Users/kerryoo/cloud-cafe/CloudCafeServer/include/User.h
+
+/Users/kerryoo/cloud-cafe/CloudCafeServer/include/Vector3.h
 iostream
 -
 
-/Users/kerryoo/cloud-cafe/CloudCafeServer/src/User.cpp
-User.h
-/Users/kerryoo/cloud-cafe/CloudCafeServer/src/User.h
-ServerConfigs.h
-/Users/kerryoo/cloud-cafe/CloudCafeServer/src/ServerConfigs.h
+/Users/kerryoo/cloud-cafe/CloudCafeServer/main.cpp
+iostream
+-
+sstream
+-
+include/UserList.h
+/Users/kerryoo/cloud-cafe/CloudCafeServer/include/UserList.h
 
