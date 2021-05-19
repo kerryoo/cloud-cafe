@@ -89,62 +89,17 @@ CMakeFiles/cloud-cafe-server.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cloud-cafe-server.dir/main.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kerryoo/cloud-cafe/cloud-cafe-server/main.cpp -o CMakeFiles/cloud-cafe-server.dir/main.cpp.s
 
-CMakeFiles/cloud-cafe-server.dir/src/User.cpp.o: CMakeFiles/cloud-cafe-server.dir/flags.make
-CMakeFiles/cloud-cafe-server.dir/src/User.cpp.o: ../src/User.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kerryoo/cloud-cafe/cloud-cafe-server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cloud-cafe-server.dir/src/User.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cloud-cafe-server.dir/src/User.cpp.o -c /Users/kerryoo/cloud-cafe/cloud-cafe-server/src/User.cpp
-
-CMakeFiles/cloud-cafe-server.dir/src/User.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cloud-cafe-server.dir/src/User.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kerryoo/cloud-cafe/cloud-cafe-server/src/User.cpp > CMakeFiles/cloud-cafe-server.dir/src/User.cpp.i
-
-CMakeFiles/cloud-cafe-server.dir/src/User.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cloud-cafe-server.dir/src/User.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kerryoo/cloud-cafe/cloud-cafe-server/src/User.cpp -o CMakeFiles/cloud-cafe-server.dir/src/User.cpp.s
-
-CMakeFiles/cloud-cafe-server.dir/src/Vector3.cpp.o: CMakeFiles/cloud-cafe-server.dir/flags.make
-CMakeFiles/cloud-cafe-server.dir/src/Vector3.cpp.o: ../src/Vector3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kerryoo/cloud-cafe/cloud-cafe-server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cloud-cafe-server.dir/src/Vector3.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cloud-cafe-server.dir/src/Vector3.cpp.o -c /Users/kerryoo/cloud-cafe/cloud-cafe-server/src/Vector3.cpp
-
-CMakeFiles/cloud-cafe-server.dir/src/Vector3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cloud-cafe-server.dir/src/Vector3.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kerryoo/cloud-cafe/cloud-cafe-server/src/Vector3.cpp > CMakeFiles/cloud-cafe-server.dir/src/Vector3.cpp.i
-
-CMakeFiles/cloud-cafe-server.dir/src/Vector3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cloud-cafe-server.dir/src/Vector3.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kerryoo/cloud-cafe/cloud-cafe-server/src/Vector3.cpp -o CMakeFiles/cloud-cafe-server.dir/src/Vector3.cpp.s
-
-CMakeFiles/cloud-cafe-server.dir/src/UserList.cpp.o: CMakeFiles/cloud-cafe-server.dir/flags.make
-CMakeFiles/cloud-cafe-server.dir/src/UserList.cpp.o: ../src/UserList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kerryoo/cloud-cafe/cloud-cafe-server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cloud-cafe-server.dir/src/UserList.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cloud-cafe-server.dir/src/UserList.cpp.o -c /Users/kerryoo/cloud-cafe/cloud-cafe-server/src/UserList.cpp
-
-CMakeFiles/cloud-cafe-server.dir/src/UserList.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cloud-cafe-server.dir/src/UserList.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kerryoo/cloud-cafe/cloud-cafe-server/src/UserList.cpp > CMakeFiles/cloud-cafe-server.dir/src/UserList.cpp.i
-
-CMakeFiles/cloud-cafe-server.dir/src/UserList.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cloud-cafe-server.dir/src/UserList.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kerryoo/cloud-cafe/cloud-cafe-server/src/UserList.cpp -o CMakeFiles/cloud-cafe-server.dir/src/UserList.cpp.s
-
 # Object files for target cloud-cafe-server
 cloud__cafe__server_OBJECTS = \
-"CMakeFiles/cloud-cafe-server.dir/main.cpp.o" \
-"CMakeFiles/cloud-cafe-server.dir/src/User.cpp.o" \
-"CMakeFiles/cloud-cafe-server.dir/src/Vector3.cpp.o" \
-"CMakeFiles/cloud-cafe-server.dir/src/UserList.cpp.o"
+"CMakeFiles/cloud-cafe-server.dir/main.cpp.o"
 
 # External object files for target cloud-cafe-server
 cloud__cafe__server_EXTERNAL_OBJECTS =
 
 cloud-cafe-server: CMakeFiles/cloud-cafe-server.dir/main.cpp.o
-cloud-cafe-server: CMakeFiles/cloud-cafe-server.dir/src/User.cpp.o
-cloud-cafe-server: CMakeFiles/cloud-cafe-server.dir/src/Vector3.cpp.o
-cloud-cafe-server: CMakeFiles/cloud-cafe-server.dir/src/UserList.cpp.o
 cloud-cafe-server: CMakeFiles/cloud-cafe-server.dir/build.make
 cloud-cafe-server: CMakeFiles/cloud-cafe-server.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kerryoo/cloud-cafe/cloud-cafe-server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable cloud-cafe-server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kerryoo/cloud-cafe/cloud-cafe-server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable cloud-cafe-server"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cloud-cafe-server.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

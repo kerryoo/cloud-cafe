@@ -5,9 +5,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/kerryoo/cloud-cafe/cloud-cafe-server/main.cpp" "/Users/kerryoo/cloud-cafe/cloud-cafe-server/cmake-build-debug/CMakeFiles/cloud-cafe-server.dir/main.cpp.o"
-  "/Users/kerryoo/cloud-cafe/cloud-cafe-server/src/User.cpp" "/Users/kerryoo/cloud-cafe/cloud-cafe-server/cmake-build-debug/CMakeFiles/cloud-cafe-server.dir/src/User.cpp.o"
-  "/Users/kerryoo/cloud-cafe/cloud-cafe-server/src/UserList.cpp" "/Users/kerryoo/cloud-cafe/cloud-cafe-server/cmake-build-debug/CMakeFiles/cloud-cafe-server.dir/src/UserList.cpp.o"
-  "/Users/kerryoo/cloud-cafe/cloud-cafe-server/src/Vector3.cpp" "/Users/kerryoo/cloud-cafe/cloud-cafe-server/cmake-build-debug/CMakeFiles/cloud-cafe-server.dir/src/Vector3.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
@@ -15,7 +12,7 @@ set(CMAKE_CXX_COMPILER_ID "AppleClang")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   ".././include"
   ".././apis/modern-cpp-kafka/include"
-  "../../../../../usr/local/Cellar/librdkafka/1.7.0/include"
+  "/include"
   )
 
 # Targets to which this target links.

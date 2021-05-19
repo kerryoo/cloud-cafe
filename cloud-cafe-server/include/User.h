@@ -18,6 +18,7 @@ public:
     friend std::ostream& operator<<(std::ostream& os, const User& user);
     void move(std::string const& input);
     void chat(std::string const& sentence);
+    std::string getId() const;
     Vector3 getPos() const;
     Vector3 getRot() const;
 private:

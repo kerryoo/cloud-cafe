@@ -6,11 +6,17 @@
 
 std::string UserList::addUser(const std::string &playerID) {
     User user(playerID);
+    std::string currUsers;
+
+    for (const auto& client : userList.users) {
+        currUsers += " " + client.getID();
+    }
+
     auto it = std::find(users.begin(), users.end(), user);
     if (it == users.end()) {
         users.emplace_back(user);
     }
-    return "login " + playerID;
+    return "login " + playerID + currUsers;
 }
 
 std::string UserList::removeUser(const std::string &playerID) {
@@ -20,7 +26,7 @@ std::string UserList::removeUser(const std::string &playerID) {
 }
 
 std::ostream& operator<<(std::ostream& os, const UserList& userList) {
-    for (const auto & user : userList.users) {
+    for (const auto& user : userList.users) {
         os << user << std::endl;
     }
     return os;

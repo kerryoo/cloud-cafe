@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="modern-cpp-kafka-api"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\apis\;CMake Files\apis\modern-cpp-kafka\;CMake Files\apis\modern-cpp-kafka\include\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/kerryoo/cloud-cafe/cloud-cafe-server/cmake-build-debug/apis/modern-cpp-kafka/include"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/kerryoo/cloud-cafe/cloud-cafe-server/cmake-build-debug/apis/modern-cpp-kafka/include/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/kerryoo/cloud-cafe/cloud-cafe-server/cmake-build-debug/apis/modern-cpp-kafka/include/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/kerryoo/cloud-cafe/cloud-cafe-server/cmake-build-debug/apis/modern-cpp-kafka/include/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/kerryoo/cloud-cafe/cloud-cafe-server/cmake-build-debug/apis/modern-cpp-kafka/include/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/kerryoo/cloud-cafe/cloud-cafe-server/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/kerryoo/cloud-cafe/cloud-cafe-server/apis/modern-cpp-kafka/include/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apis\modern-cpp-kafka\include\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -6,6 +6,7 @@
 #include "ServerConfigs.h"
 
 UserList users;
+const char* bootstrapServersIps;
 
 void mainLoop();
 std::string handleRequest(std::string request);
@@ -55,13 +56,13 @@ std::string onUserChat(std::string const& playerID, std::string const& sentence)
 
 void mainLoop() {
     kafka::Properties broadcasterProps ({
-        {"bootstrap.servers", ServerConfigs::BOOTSTRAP_SERVER_IP},
+        {"bootstrap.servers", bootstrapServersIps},
         {"enable.idempotence", "true"},
     });
 
     kafka::KafkaSyncProducer broadcaster(broadcasterProps);
 
-    kafka::Properties listenerProps ({{"bootstrap.servers", ServerConfigs::BOOTSTRAP_SERVER_IP}});
+    kafka::Properties listenerProps ({{"bootstrap.servers", bootstrapServersIps}});
     kafka::KafkaAutoCommitConsumer listener(listenerProps);
     listener.subscribe({ServerConfigs::CLIENT_INPUTS_TOPIC});
     std::cout << "% Reading messages from topic: " << ServerConfigs::CLIENT_INPUTS_TOPIC << std::endl;
@@ -99,6 +100,7 @@ void mainLoop() {
 }
 
 int main() {
+    bootstrapServersIps = std::getenv("BOOTSTRAP_SERVER_IP");
     std::cout << "% Server started!" << std::endl;
 //    mainLoop();
     std::cout << "% Server closed!" << std::endl;

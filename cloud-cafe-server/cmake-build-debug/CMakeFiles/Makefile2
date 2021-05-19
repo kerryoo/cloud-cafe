@@ -93,12 +93,12 @@ clean: CMakeFiles/cloud-cafe-server.dir/clean
 CMakeFiles/cloud-cafe-server.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cloud-cafe-server.dir/build.make CMakeFiles/cloud-cafe-server.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cloud-cafe-server.dir/build.make CMakeFiles/cloud-cafe-server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kerryoo/cloud-cafe/cloud-cafe-server/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target cloud-cafe-server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kerryoo/cloud-cafe/cloud-cafe-server/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target cloud-cafe-server"
 .PHONY : CMakeFiles/cloud-cafe-server.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/cloud-cafe-server.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kerryoo/cloud-cafe/cloud-cafe-server/cmake-build-debug/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kerryoo/cloud-cafe/cloud-cafe-server/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/cloud-cafe-server.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kerryoo/cloud-cafe/cloud-cafe-server/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/cloud-cafe-server.dir/rule

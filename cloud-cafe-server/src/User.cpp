@@ -46,3 +46,7 @@ void User::chat(const std::string &sentence) {
     //add to a chat log somewhere
 }
 
+std::string User::getId() const {
+    return userId;
+}
+

@@ -236,6 +236,12 @@ cloud-cafe-server_BINARY_DIR:STATIC=/Users/kerryoo/cloud-cafe/cloud-cafe-server/
 //Value Computed by CMake
 cloud-cafe-server_SOURCE_DIR:STATIC=/Users/kerryoo/cloud-cafe/cloud-cafe-server
 
+//Value Computed by CMake
+modern-cpp-kafka-api_BINARY_DIR:STATIC=/Users/kerryoo/cloud-cafe/cloud-cafe-server/cmake-build-debug/apis/modern-cpp-kafka/include
+
+//Value Computed by CMake
+modern-cpp-kafka-api_SOURCE_DIR:STATIC=/Users/kerryoo/cloud-cafe/cloud-cafe-server/apis/modern-cpp-kafka/include
+
 
 ########################
 # INTERNAL cache entries

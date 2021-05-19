@@ -28,16 +28,3 @@ CMakeFiles/cloud-cafe-server.dir/main.cpp.o
  /Users/kerryoo/cloud-cafe/cloud-cafe-server/apis/modern-cpp-kafka/include/kafka/KafkaConsumer.h
  /Users/kerryoo/cloud-cafe/cloud-cafe-server/apis/modern-cpp-kafka/include/kafka/KafkaProducer.h
  /Users/kerryoo/cloud-cafe/cloud-cafe-server/main.cpp
-CMakeFiles/cloud-cafe-server.dir/src/User.cpp.o
- ../include/ServerConfigs.h
- ../include/User.h
- ../include/Vector3.h
- /Users/kerryoo/cloud-cafe/cloud-cafe-server/src/User.cpp
-CMakeFiles/cloud-cafe-server.dir/src/UserList.cpp.o
- ../include/User.h
- ../include/UserList.h
- ../include/Vector3.h
- /Users/kerryoo/cloud-cafe/cloud-cafe-server/src/UserList.cpp
-CMakeFiles/cloud-cafe-server.dir/src/Vector3.cpp.o
- ../include/Vector3.h
- /Users/kerryoo/cloud-cafe/cloud-cafe-server/src/Vector3.cpp

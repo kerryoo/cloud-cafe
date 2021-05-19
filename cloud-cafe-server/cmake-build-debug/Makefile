@@ -169,87 +169,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cloud-cafe-server.dir/build.make CMakeFiles/cloud-cafe-server.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-src/User.o: src/User.cpp.o
-
-.PHONY : src/User.o
-
-# target to build an object file
-src/User.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cloud-cafe-server.dir/build.make CMakeFiles/cloud-cafe-server.dir/src/User.cpp.o
-.PHONY : src/User.cpp.o
-
-src/User.i: src/User.cpp.i
-
-.PHONY : src/User.i
-
-# target to preprocess a source file
-src/User.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cloud-cafe-server.dir/build.make CMakeFiles/cloud-cafe-server.dir/src/User.cpp.i
-.PHONY : src/User.cpp.i
-
-src/User.s: src/User.cpp.s
-
-.PHONY : src/User.s
-
-# target to generate assembly for a file
-src/User.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cloud-cafe-server.dir/build.make CMakeFiles/cloud-cafe-server.dir/src/User.cpp.s
-.PHONY : src/User.cpp.s
-
-src/UserList.o: src/UserList.cpp.o
-
-.PHONY : src/UserList.o
-
-# target to build an object file
-src/UserList.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cloud-cafe-server.dir/build.make CMakeFiles/cloud-cafe-server.dir/src/UserList.cpp.o
-.PHONY : src/UserList.cpp.o
-
-src/UserList.i: src/UserList.cpp.i
-
-.PHONY : src/UserList.i
-
-# target to preprocess a source file
-src/UserList.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cloud-cafe-server.dir/build.make CMakeFiles/cloud-cafe-server.dir/src/UserList.cpp.i
-.PHONY : src/UserList.cpp.i
-
-src/UserList.s: src/UserList.cpp.s
-
-.PHONY : src/UserList.s
-
-# target to generate assembly for a file
-src/UserList.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cloud-cafe-server.dir/build.make CMakeFiles/cloud-cafe-server.dir/src/UserList.cpp.s
-.PHONY : src/UserList.cpp.s
-
-src/Vector3.o: src/Vector3.cpp.o
-
-.PHONY : src/Vector3.o
-
-# target to build an object file
-src/Vector3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cloud-cafe-server.dir/build.make CMakeFiles/cloud-cafe-server.dir/src/Vector3.cpp.o
-.PHONY : src/Vector3.cpp.o
-
-src/Vector3.i: src/Vector3.cpp.i
-
-.PHONY : src/Vector3.i
-
-# target to preprocess a source file
-src/Vector3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cloud-cafe-server.dir/build.make CMakeFiles/cloud-cafe-server.dir/src/Vector3.cpp.i
-.PHONY : src/Vector3.cpp.i
-
-src/Vector3.s: src/Vector3.cpp.s
-
-.PHONY : src/Vector3.s
-
-# target to generate assembly for a file
-src/Vector3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cloud-cafe-server.dir/build.make CMakeFiles/cloud-cafe-server.dir/src/Vector3.cpp.s
-.PHONY : src/Vector3.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -262,15 +181,6 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... src/User.o"
-	@echo "... src/User.i"
-	@echo "... src/User.s"
-	@echo "... src/UserList.o"
-	@echo "... src/UserList.i"
-	@echo "... src/UserList.s"
-	@echo "... src/Vector3.o"
-	@echo "... src/Vector3.i"
-	@echo "... src/Vector3.s"
 .PHONY : help
 
 
