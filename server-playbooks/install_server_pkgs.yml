@@ -1,0 +1,39 @@
+- name: install ubuntu build essentials
+  apt:
+    pkg: build-essential
+    update_cache: yes
+
+- name: install java runtime environment
+  apt:
+    pkg:
+    - default-jre
+    update_cache: yes
+
+- name: curl kafka
+  get_url:
+    url: https://downloads.apache.org/kafka/2.7.0/kafka_2.13-2.7.0.tgz
+    dest: /home/ubuntu/kafka.tgz
+    mode: 0777
+
+- name: create kafka directory
+  ansible.builtin.file:
+    path: /home/ubuntu/kafka
+    state: directory
+    mode: 0777
+
+- name: extracting kafka
+  shell: "tar -xzf /home/ubuntu/kafka.tgz -C /home/ubuntu/kafka"
+  args:
+    warn: no   
+
+- name: install librdkafka-dev package
+  apt:
+    pkg: librdkafka-dev
+    update_cache: yes
+
+- name: copy server code to vm
+  copy:
+    src: ../cloud-cafe-server
+    dest: /home/ubuntu/
+    owner: ubuntu
+    mode: 0777

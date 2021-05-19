@@ -1,0 +1,43 @@
+---
+- name: Create CouchDB VM
+  hosts: localhost
+  connection: local
+  tasks:
+  - name: launching ec2
+    amazon.aws.ec2:
+     aws_access_key: "{{ aws_access_key }}"
+     aws_secret_key: "{{ aws_secret_key }}"
+     security_token: "{{ aws_security_token }}"
+     instance_type: t2.small
+     key_name: "{{ key_name }}"
+     image: ami-042e8287309f5df03
+     region: "{{ region }}"
+     group: "{{ group }}"
+     count: 1
+     count_tag:
+         Name: myVM
+     vpc_subnet_id: "{{ subnet_id }}"
+     wait: yes
+     wait_timeout: 600
+     assign_public_ip: yes
+    register: ec2
+
+  - name: Add all instance public IPs to host group
+    add_host: hostname={{ item.public_ip }} groups=ec2hosts
+    loop: "{{ ec2.instances }}"
+
+- hosts: ec2hosts
+  name: configuration play
+  user: ubuntu
+  gather_facts: false
+  tasks:
+     - name: wait 600 seconds for target connection to become reachable     
+       wait_for_connection:
+          timeout: 600
+          
+- hosts: ec2hosts
+  remote_user: ubuntu
+  become: yes
+  tasks:
+    - include: install_couch_db.yml
+    - include: set_up_couch_db.yml

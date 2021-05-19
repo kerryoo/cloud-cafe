@@ -6,7 +6,8 @@ using UnityEngine;
 public class AllClientsManager : MonoBehaviour
 {
     [SerializeField] GameObject clientObject;
-    List<GameObject> allClients;
+    [SerializeField] ChatManager chatManager;
+    List<OtherPlayer> allClients;
     bool initialized = false;
 
     public void onReceiveMessage(string message)
@@ -35,7 +36,9 @@ public class AllClientsManager : MonoBehaviour
             movePlayer(playerID, pos, rot);
         } else if (command == "chat")
         {
-            
+            string playerID = tokens[1];
+            IEnumerable<string> sentenceTokens = tokens.Skip(2);
+            chatPlayer(playerID, string.Join(" ", sentenceTokens.ToArray()));
         } else
         {
             Debug.Log("An error seems to have occurred. Unknown command: " + command);
@@ -44,27 +47,45 @@ public class AllClientsManager : MonoBehaviour
 
     private void addPlayer(string playerID)
     {
-       
+        OtherPlayer playerToAdd = Instantiate(clientObject, new Vector3(0, 0, 0), Quaternion.identity).GetComponent<OtherPlayer>();
+        playerToAdd.playerID = playerID;
+        allClients.Add(playerToAdd);
     }
 
     private void removePlayer(string playerID)
     {
-
+        OtherPlayer playerToRemove = allClients.SingleOrDefault(x => x.playerID == playerID);
+        if (playerToRemove != null)
+        {
+            allClients.Remove(playerToRemove);
+            Destroy(playerToRemove.gameObject);
+        }
     }
 
     private void movePlayer(string playerID, Vector3 position, Vector3 rotation)
     {
-
+        OtherPlayer playerToMove = allClients.SingleOrDefault(x => x.playerID == playerID);
+        if (playerToMove == null)
+        {
+            Debug.Log("Error: Received request to move nonexistant player");
+        } else
+        {
+            playerToMove.transform.position = position;
+            playerToMove.transform.rotation = Quaternion.Euler(rotation);
+        }
     }
 
     private void chatPlayer(string playerID, string sentence)
     {
-
+        chatManager.updateChatBox(playerID, sentence);
     }
 
     private void initialize(IEnumerable<string> clients)
     {
-        
+        foreach (string client in clients)
+        {
+            addPlayer(client);
+        }
     }
 
 }

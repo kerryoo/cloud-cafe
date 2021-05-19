@@ -1,0 +1,20 @@
+- name: open port
+  ini_file: dest=/opt/couchdb/etc/local.ini section=chttpd option=port value=5984
+  
+- name: open bind address
+  ini_file: dest=/opt/couchdb/etc/local.ini section=chttpd option=bind_address value=0.0.0.0
+
+- name: add admin
+  ini_file: dest=/opt/couchdb/etc/local.ini section=admins option=admin value=password
+
+- name: stop couchdb
+  ansible.builtin.shell:
+    cmd: sudo service couchdb stop
+
+- name: start couchdb
+  ansible.builtin.shell:
+    cmd: sudo service couchdb start
+
+- name: create a users database
+  ansible.builtin.shell:
+    cmd: curl -X PUT http://admin:password@127.0.0.1:5984/users
